@@ -1,0 +1,19 @@
+spring:
+  config:
+    name: pract_5
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pract_5
+    username: postgres
+    password: 3352
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql:
+server:
+  port: 8888
